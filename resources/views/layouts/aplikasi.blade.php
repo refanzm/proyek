@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-	<title>Geprek Pak Tarno</title>
+    <link rel="icon" href="{{ asset('grocery') }}/images/geprek1.png" type="image/gif" sizes="16x16">
+	<title>Teras Ciamie</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="G" />
@@ -27,9 +28,9 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('grocery') }}/css/jquery-ui1.css">
 	<!-- fonts -->
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
-	
+
 	<link href="http://fonts.cdnfonts.com/css/arco" rel="stylesheet">
-	
+
 	<script src="{{ asset('grocery') }}/js/jquery-2.1.4.min.js"></script>
 	<script src="{{ asset('grocery') }}/js/bootstrap.js"></script>
 
@@ -90,12 +91,12 @@
 				'{{ url("addCart") }}',
 				JSON.stringify(data),
 				function(res){
-					
+
 				},
 				"JSON",
 			)
 		}
-	
+
 		function showCart(){
 			$.get('{{ url("cart") }}',function(res){
 				$('#mycart').html(res);
@@ -106,7 +107,7 @@
 				}
 			});
 		}
-	
+
 		function deleteItem(id_item){
 			$.get('{{url('delete')}}/'+id_item,function(res){
 				showCart()
@@ -165,7 +166,7 @@
 	<!-- price range (top products) -->
 	<script src="{{ asset('grocery') }}/js/jquery-ui.js"></script>
 	<script>
-		//<![CDATA[ 
+		//<![CDATA[
 		$(window).load(function () {
 			$("#slider-range").slider({
 				range: true,
@@ -260,7 +261,7 @@
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
-				easingType: 'linear' 
+				easingType: 'linear'
 			};
 			*/
 			$().UItoTop({
