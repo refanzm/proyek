@@ -273,14 +273,12 @@ CREATE TABLE `tb_menu` (
 --
 
 INSERT INTO `tb_menu` (`id_menu`, `kategori_menu`, `nama_menu`, `harga_menu`, `deskripsi_menu`, `gambar_menu`, `status_menu`, `time`) VALUES
-(1, 'Makanan', 'Geprek', 12000, 'Mantepnya nampol...!!!', 'Ayam_geprek (1).png', 'Tersedia', '2022-08-22 10:40:38'),
-(2, 'Makanan', 'Lele Goreng', 12000, 'Pokoknya mantep deh!!!', 'd9f2950e-7c40-483c-a1ae-6818c7f669db.jpg', 'Tersedia', '2022-07-10 15:13:01'),
-(3, 'Makanan', 'Ayam Penyet', 13000, 'Wuiiiih nagih BGT ...!!!', 'Ayam_Penyet_Sambal_Korek (1).png', 'Tidak tersedia', '2023-02-21 08:20:46'),
-(4, 'Makanan', 'Lele Geprek', 12000, 'Nampol pokoknya mah !!!', '81992551_127516965419649_4737744623484882717_n_1580833870824_resized1024 (1).jpg', 'Tersedia', '2023-02-21 08:20:33'),
-(5, 'Makanan', 'Ati Ampela Goreng', 12000, 'Gurihhh.... Gurrrrih.... Guriiiih....', 'menueditor_item_a064555a85a8463792f8e2c8dcccd6e5_1578053585026653020 (1).jpg', 'Tersedia', '2022-07-10 13:42:58'),
-(6, 'Makanan', 'Tahu Tempe', 9000, 'Pedasnya Manteb...!', 'LhyoqRgPGccZrCcCsVlpGiZGTCCoO0UF-31353835353534353334d41d8cd98f00b204e9800998ecf8427e_800x800 (1).jpg', 'Tersedia', '2022-07-10 13:42:59'),
-(7, 'Makanan', 'Telur', 10000, 'Jossss !!!', '1594532_7e0269ca-6f0f-402f-8364-6b97aa2b4e76_554_554.jpg', 'Tersedia', '2022-07-10 13:43:00'),
-(31, 'Minuman', 'Es Jeruk', 12000, 'oke', 'Es-Jeruk-0-3825d2ffbadc88d9.jpg', 'Tersedia', '2022-07-13 05:15:57');
+(1, 'Makanan', 'Mie Angel', 7000, 'Mantepnya nampol...!!!', 'menu-1.jpg', 'Tersedia', '2023-06-08 16:45:16'),
+(2, 'Makanan', 'Paket 1', 28875, 'Pokoknya mantep deh!!!', 'menu-3.jpg', 'Tersedia', '2023-06-08 16:45:50'),
+(3, 'Makanan', 'Hot Ciamie', 9000, 'Wuiiiih nagih BGT ...!!!', 'menu-2.jpg', 'Tersedia', '2023-06-08 16:46:07'),
+(5, 'Makanan', 'Dimsum', 6000, 'Enyak.... Enyak.... Enyak....', 'menu-6.jpg', 'Tidak tersedia', '2023-06-08 16:46:22'),
+(31, 'Minuman', 'Es Teh', 3000, 'Seger bet deh', 'menu-4.jpg', 'Tersedia', '2023-06-08 16:46:40'),
+(32, 'Minuman', 'Es Coklat', 5000, 'Diambil langsung dari Chocoland', 'menu-5.jpg', 'Tersedia', '2023-06-08 16:41:03');
 
 -- --------------------------------------------------------
 
