@@ -440,7 +440,7 @@
                 <div class="modal_body_left modal_body_left1">
                     <h3 class="agileinfo_sign">Sign Up</h3>
                     <p>
-                        Come join the Grocery Shoppy! Let's set up your Account.
+                        Welcome to Teras Ciamie.
                     </p>
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
