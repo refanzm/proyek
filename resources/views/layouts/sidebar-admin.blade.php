@@ -68,7 +68,7 @@
                     <a class="dropdown-item" href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
-                            <span class="fa-fw select-all fas"></span> 
+                            <span class="fa-fw select-all fas"></span>
                             <span>{{ __('Logout') }}</span>
                     </a>
 
